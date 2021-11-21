@@ -2,10 +2,10 @@
  using UnityEngine;
  using UnityEngine.EventSystems;
 
- public class CanvasPointerEnterHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+ public class CanvasPointerEnterHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
  {
-     [SerializeField] private OVRInputModule _ovrInputModule;
-     [SerializeField] private OVRRaycaster _ovrRaycaster;
+     [SerializeField] private Camera _camera;
+     [SerializeField] private RaySync _raySync;
 
      private bool _isEnter = false;
      
@@ -15,12 +15,11 @@
          Debug.Log($"PointerEnter!!{eventData.position.ToString()}");
      }
 
-     public void Update()
+     public void OnPointerClick(PointerEventData eventData)
      {
-         if (!_isEnter)
-         {
-             return;
-         }
+         Debug.Log("Click!!");
+         var ray = _camera.ScreenPointToRay(eventData.position);
+         _raySync.SetRay(ray);
      }
 
      public void OnPointerExit(PointerEventData eventData)
