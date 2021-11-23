@@ -630,7 +630,7 @@ MonoBehaviour:
   _hitTestCamera: {fileID: 1599764158}
   _hitPointPrefab: {fileID: 3823795774768858063, guid: 003879bec682577458678ea2d8e22e1b, type: 3}
   _rayCastDistance: 100
-  _screenWidth: 1980
+  _screenWidth: 1920
   _screenHeight: 1080
 --- !u!4 &1106044089
 Transform:
@@ -995,7 +995,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434869498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 0, z: 0}
+  m_LocalPosition: {x: -0.02, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 699857079}
@@ -1259,7 +1259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599764155}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 0, z: 0}
+  m_LocalPosition: {x: 0.02, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 699857079}

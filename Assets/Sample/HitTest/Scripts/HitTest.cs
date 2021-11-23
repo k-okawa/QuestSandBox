@@ -13,7 +13,7 @@ public class HitTest : MonoBehaviour
     [SerializeField] private Camera _hitTestCamera;
     [SerializeField] private GameObject _hitPointPrefab;
     [SerializeField] private float _rayCastDistance = 100f;
-    [SerializeField] private float _screenWidth = 1980f;
+    [SerializeField] private float _screenWidth = 1920f;
     [SerializeField] private float _screenHeight = 1080f;
 
     private LineRenderer _lineRenderer;
