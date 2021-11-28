@@ -628,6 +628,7 @@ MonoBehaviour:
   _meshFilter: {fileID: 1663306344}
   _handTrans: {fileID: 1736834786}
   _hitTestCamera: {fileID: 1599764158}
+  _screenMeshCollider: {fileID: 1663306345}
   _hitPointPrefab: {fileID: 3823795774768858063, guid: 003879bec682577458678ea2d8e22e1b, type: 3}
   _rayCastDistance: 100
   _screenWidth: 1920
